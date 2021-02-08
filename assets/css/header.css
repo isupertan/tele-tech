@@ -80,6 +80,7 @@ button{
     margin-right: 40px;
     cursor: pointer;
     display: none;
+    z-index: 99;
 }
 #check{
     display: none;

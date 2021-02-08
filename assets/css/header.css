@@ -27,6 +27,9 @@ html,body{
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
+.top-header{
+    background-color: rgb(235, 217, 198);
+}
 .top-header .header-button{
     background-color: #e46230;
     color: #fff;

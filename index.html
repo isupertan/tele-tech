@@ -61,7 +61,7 @@
           </div>
         </div>
         <div class="col-lg-3 d-flex">
-          <button>Get A Quote</button>
+          <a href="quote.html" class="header-button">Get A Quote</a>
         </div>
       </div>
     </div>
@@ -80,7 +80,7 @@
                    <div class="vl"></div>
                     <li><a href="services.html">Services</a></li>
                     <div class="vl"></div>
-                   <li><a href="listing.html">Project</a></li>
+                   <li><a href="product.html">Product</a></li>
                    <div class="vl"></div>
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -131,7 +131,7 @@
       <h2 class="text-center">Our Repair Services</h2>
       <h4 class="text-center">Any kinds of digital device problem you need fixed. We can help! Check out our digital device repair services.</h4>
       <div class="row">
-          <div class="col-lg-3 repair-services">
+          <div class="col-lg-3 repair-services" data-aos="fade-down"data-aos-duration="1200">
             <div class="image-wrapper text-center">
               <img src="https://img.icons8.com/ios/50/000000/android.png"/>
             </div>
@@ -139,7 +139,7 @@
             <h6>Our helpful, friendly and A+ Certified Technicians are ready to take care of your valuable Phone</h6>
             <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
           </div>
-          <div class="col-lg-3 repair-services">
+          <div class="col-lg-3 repair-services" data-aos="fade-down"data-aos-duration="1200">
             <div class="image-wrapper text-center">
              <img src="https://img.icons8.com/ios/50/000000/android.png">
             </div>
@@ -147,7 +147,7 @@
             <h6>Our helpful, friendly and A+ Certified Technicians are ready to take care of your valuable Phone</h6>
             <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
           </div>
-          <div class="col-lg-3 repair-services">
+          <div class="col-lg-3 repair-services" data-aos="fade-down"data-aos-duration="1200">
             <div class="image-wrapper text-center">
               <img src="https://img.icons8.com/ios/50/000000/android.png">
             </div>
@@ -155,7 +155,7 @@
             <h6>Our helpful, friendly and A+ Certified Technicians are ready to take care of your valuable Phone</h6>
             <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
           </div>
-          <div class="col-lg-3 repair-services">
+          <div class="col-lg-3 repair-services" data-aos="fade-down"data-aos-duration="1200">
             <div class="image-wrapper text-center">
               <img src="https://img.icons8.com/ios/50/000000/android.png">
             </div>
@@ -171,11 +171,11 @@
       <div class="container">
         <div class="row">
         <div class="col-lg-6">
-          <div class="image-wrapper">
+          <div class="image-wrapper"data-aos="fade-right"data-aos-duration="1200">
             <img src="https://wp.bwlthemes.com/restore_wp/wp-content/uploads/2016/11/about-e1528309926880.jpg">
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6"data-aos="fade-left"data-aos-duration="1200">
           <h2>* YEARS OF EXPERIENCE IN DIGITAL DEVICE REPAIR SERVICES</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
           <h5>CALL US TO GET FREE QUOTES</h5>
@@ -191,22 +191,22 @@
           <h2>Our Process</h2>
           <p>Easy and effective way to get your device repaired</p>
           <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3" data-aos="fade-down"data-aos-duration="1200">
               <h3>DAMAGE
 DEVICE</h3>
               <h6>when your device is need to be fixed please no panic and relaxed</h6>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3" data-aos="fade-down"data-aos-duration="1200">
               <h3>SEND THEM
 TO US</h3>
               <h6>Send the device to us which you need to be fixed and stay calm</h6>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3" data-aos="fade-down"data-aos-duration="1200">
               <h3>FAST
 FIX</h3>
 <h6>We will take care of it and work with it to fix it smooth and accurately</h6>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3"data-aos="fade-down"data-aos-duration="1200">
               <h3>QUICK
 RETURN</h3>
 <h6>After a quick fix, we just return it to your destination fast and securely</h6>
@@ -283,23 +283,31 @@ RETURN</h3>
       <!--request for quote-->
       <div class="section request">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6"data-aos="fade-right"data-aos-duration="1200">
             <div class="image-wrapper">
               <img src="https://wp.bwlthemes.com/restore_wp/wp-content/uploads/2016/11/quote-image.jpg" width="70%">
             </div>
           </div>
-          <div class="col-lg-6 request-box">
+          <div class="col-lg-6 request-box" data-aos="fade-left"data-aos-duration="1200">
             <h2 class="text-center">REQUEST FREE QUOTE</h2>
             <h4>Send your request using the form and you will get a free estimation.</h4>
             <form method="post">
               <div class="form-group">
-        <input type="text" class="form-control"placeholder="Your name">
+        <input type="text" name="name" class="form-control"placeholder="Your name">
       </div>
        <div class="form-group">
-        <input type="text" class="form-control"placeholder="Your name">
+        <input type="number" name="phone"  class="form-control"placeholder="Your phone number">
       </div>
+      <div class="form-group">
+  <select class="form-control" id="sel1">
+    <option>Select Brand:</option>
+    <option>Vivo</option>
+    <option>Samsung</option>
+    <option>Redmi</option>
+  </select>
+</div>
        <div class="form-group">
-        <textarea></textarea>
+        <textarea name="message" placeholder="Your Message"></textarea>
       </div>
       <div class="row">
         <div class="col-lg-12 d-flex form-button">
@@ -348,24 +356,24 @@ RETURN</h3>
     <div class="row">
     <div class="col-md-3">
                 <div class="image-wrapper">
-                <img src="./assets/image/logo.jpeg" class="img-fluid" width="80%">
+                <img src="assets/img/tee-tech-servicwes.png" class="img-fluid" width="80%">
               </div>
     </div>
     <div class="col-md-3 text-center">
       <h3>Contact info</h3>
       <p class="address">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-      <span class="phone-no text-center">1233557</span>
+      <span class="phone-no text-center">+919339423440</span>
       <p class="email">something@gmail.com</p>
 
     </div>
     <div class="col-md-3 text-center">
       <h3>services</h3>
       <div class="footer-links">
-      <a href="index.html">home</a>
+     <a href="index.html">home</a>
       <a href="about.html">about us</a>
-      <a href="">services</a>
-      <a href="">project</a>
-      <a href="">contact</a>
+      <a href="services.html">services</a>
+      <a href="product.html">product</a>
+      <a href="contact.html">contact</a>
       </div>
     </div>
     <div class="col-md-3 text-center">
@@ -382,7 +390,7 @@ RETURN</h3>
       <hr>
   <div class="row">
     <div class="col-lg-12 text-center">
-          <p>Designed by Tinta Square</p>
+          <p>Designed by <a href="https://www.tintasquare.com/" rel="no-follow" target="blank">Tinta Square</a></p>
     </div>
   </div>
   </div>

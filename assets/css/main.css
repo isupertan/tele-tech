@@ -385,6 +385,7 @@ padding: 50px 100px;
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 @media only screen and (max-width: 576px){
 .swiper-slide h1{
 	font-size: 40px;
@@ -518,4 +519,14 @@ p{
 	.thank-you span{
 		font-size: 100px;
 	}
+	.quote-form .form-control{
+	width: 100% !important;
+
+}
+.quote-form textarea{
+	width: 100% !important;
+}
+.quote-form .row .col-lg-6{
+	padding:0px 30px;
+}
 }
